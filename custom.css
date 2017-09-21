@@ -1,0 +1,110 @@
+/*FIRST PORTION OF WEBSITE*/
+body {
+    background-image: url("img/circuitbg.jpg");
+    width:90%;
+    margin: auto;
+}
+
+.header {
+    width:95%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+    margin-bottom:2.5%;
+    background: navy;
+    border: solid white 2px;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+#htext {
+    width:60%;
+    text-align: center;
+    float: right;
+}
+#htext p {
+    text-align: center;
+    font-size:32px;
+    color: white;
+}
+.header img {
+    width: 35%;
+    max-width: 500px;
+    float:left;
+    border-radius: 25px;
+}
+
+#buttons li {
+    width:50%;
+    list-style-type: none;
+    border: solid #ffffff 3px;
+    border-radius: 15px;
+    background-color: silver;
+    font-size:20px;
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#buttons a {
+    display: block;
+    color: black;
+}
+
+#buttons li:hover {
+    background-color: darkgray;
+}
+
+#buttons li a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+/*SECOND PORTION OF WEBSITE*/
+
+.information{
+    clear:both;
+    width:85%;
+    margin: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    border: solid black 2px;
+}
+
+.information img {
+    max-width: 500px;
+    width: 20%;
+}
+footer {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align:center;
+    padding:2.5px;
+    width: 50%;
+    background-color: silver;
+    border-radius: 25px;
+    border: solid black 2px;
+}
+
+
+/*RESPONSIVE PART*/
+
+@media (max-width: 500px) {
+
+    .header {
+        float: none;
+    }
+
+    #htext {
+        width:100%;
+        font-size:22px;
+    }
+
+    .header img {
+        float: none;
+        width: 100%;
+    }
+}

@@ -1,0 +1,201 @@
+body {
+	background-image: url("images/homeback.jpg");
+	background-repeat: no-repeat;
+	margin:auto;
+	font-family: 'Libre Baskerville', serif;
+	background-color: #ba7f00;
+}
+#toparea {
+    margin: auto;
+    width: 90%;
+    background-color: #ba7f00;
+	padding: 10px;
+	border-radius: 25px;
+	margin-top:20px;
+	font-size:20px;
+}
+#toparea header {
+	font-size: 45px;
+	display:inline;
+}
+#toparea a {
+	text-decoration: none;
+	font-size:30px;
+	color:black;
+}
+#toparea a:active{
+	color:red;
+}
+#toparea a:hover{
+	color:darkgray;
+}
+#toparea span:hover{
+	color:darkgray;
+}
+
+#nav {
+	float:right;
+	padding-top: 20px;
+	font-size:30px;
+	background-color: #ba7f00;
+	border-radius:25px;
+	padding-bottom:3px;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+span {
+	font-size: 30px;
+}
+
+
+/* END OF TOP AREA */
+
+
+#wrapper {
+	margin:auto;
+	clear:both;
+	width:85%;
+	
+}
+#wrapper h2 {
+	text-align:center;
+	color:white;
+}
+.container img{
+  border: 2px solid black;
+  border-radius: 250% / 50%;
+}
+.container {
+	display: inline-block;
+	margin: auto;
+}
+
+#davidoff {
+	padding-right: 5px;
+	padding-left:25px;
+}
+
+#fuente {
+	padding-right: 15px;
+	padding-left:15px;
+}
+
+#padron {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#jcnew {
+	padding-right: 15px;
+	padding-left:15px;
+}
+
+#rocky {
+	padding-left:5px;
+}
+
+.container img:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.1);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: brown;
+}
+
+footer {
+    margin: auto;
+	margin-top:20px;
+    width: 85%;
+    background-color: #ba7f00;
+	padding: 10px;
+	border-radius: 25px;
+	font-family: 'Libre Baskerville', serif;
+}
+
+footer img{
+	width:50px;
+	height:50px;
+}
+
+/*TABLET CSS*/
+
+@media (max-width: 768px) {
+body {
+	background-image: none;
+	background-color: brown;
+}
+#nav {
+	 float:none;
+	 Margin:auto;
+ }
+.container {
+	display: block;
+	height: 100px;
+	width:100px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 110px;
+}
+.container img{
+	border: 2px solid black;
+	border-radius: 0;
+}
+hr {
+	color:black;
+	background-color:black;
+}
+
+
+#davidoff {
+	padding-right:0px;
+	padding-left:0px;
+}
+
+#fuente {
+	padding-right: 0px;
+	padding-left:0px;
+}
+
+#padron {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#jcnew {
+	padding-right: 0px;
+	padding-left:0px;
+}
+
+#rocky {
+	padding-left:0px;
+}
+}
+
+
